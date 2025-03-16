@@ -1,3 +1,5 @@
+html
+Copy code
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,11 +13,14 @@
 
     <!-- Header with Navigation -->
     <header>
-        <h1>About Haryani's Orchids</h1>
+        <div class="logo">
+            <h1>Haryani's Orchids</h1>
+        </div>
+        <!-- Navigation Menu -->
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about Us.html">About Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -23,7 +28,7 @@
         </nav>
     </header>
 
-    <!-- About Section -->
+    <!-- About Us Section -->
     <section class="about-section">
         <h2>Our Story</h2>
         <p>Haryani's Orchids was founded with the vision of bringing the beauty of orchids to homes and gardens everywhere. Our passion for orchids has grown into a dedicated business that not only sells orchids but also educates people on how to care for these delicate plants.</p>
@@ -32,11 +37,23 @@
         <p>We aim to offer the best quality orchids, sourced from the finest growers, and provide expert advice on how to care for them. Whether you're a beginner or an experienced orchid enthusiast, we're here to help you grow your passion for orchids.</p>
 
         <h2>Meet the Team</h2>
-        <ul>
+        <ul class="team-list">
             <li><strong>Haryani</strong> - Founder & Orchid Expert</li>
             <li><strong>Josephine</strong> - Operations Manager</li>
             <li><strong>Michel</strong> - Customer Support</li>
         </ul>
+
+        <!-- Add images or profiles of team members -->
+        <div class="team-images">
+            <img src="images/haryani.jpg" alt="Haryani, Founder" class="team-photo">
+            <img src="images/josephine.jpg" alt="Josephine, Operations Manager" class="team-photo">
+            <img src="images/michel.jpg" alt="Michel, Customer Support" class="team-photo">
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta">
+            <a href="services.html" class="btn">Explore Our Services</a>
+        </div>
     </section>
 
     <!-- Footer -->

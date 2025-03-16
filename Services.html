@@ -1,3 +1,5 @@
+html
+Copy code
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover the services offered by Haryani's Orchids including orchid care, consultations, and workshops.">
     <title>Our Services - Haryani's Orchids</title>
-    <link rel="stylesheet" href="CSS/main.css"> <!-- Linking to external CSS -->
+    <link rel="stylesheet" href="CSS/main.css"> <!-- Link to your external CSS file -->
+    <style>
+        /* General Layout for Services Page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Services Section */
+        .services-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-item h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .service-item p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,9 +115,6 @@
 
     <!-- Services Section -->
     <section class="services-section">
-        <h2>Our Orchid Services</h2>
-        <p>At Haryani's Orchids, we offer a variety of services to help you get the most out of your orchid experience. Whether you're a beginner or an expert, we have something for everyone!</p>
-
         <div class="service-item">
             <h3>Orchid Care Consultation</h3>
             <p>Need help caring for your orchids? Our expert team is here to guide you with tailored care tips and solutions to ensure your orchids thrive.</p>
