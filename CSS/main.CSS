@@ -69,7 +69,6 @@ article {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Body */
 body {
     font-family: 'Arial', sans-serif;
@@ -81,18 +80,21 @@ body {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
 }
+
 input, select {
     padding: 8px;
     border-radius: 5px;
     border:  1px solid #CCC;
 }
+
 button {
-    background-color: blue:#333
+    background-color: #333;  /* Corrected background color */
     color: white;
     padding: 10px;
-    border: none
+    border: none;
     cursor: pointer;
 }
+
 button:hover {
     background-color: darkblue;
 }
@@ -100,8 +102,8 @@ button:hover {
 th, td {
     border: 1px solid black;
     padding: 10px;
-
 }
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -123,22 +125,19 @@ tr:nth-child(even) {
     }
 }
 
-
 /* Mobile View */
-@media (max-width: 600px)  {
-
+@media (max-width: 600px) {
     header h1 {
         font-size: 2em;
     }
     nav a {
         font-size: 1em;
     }
-
     input, select {
         font-size: 1em;
     }
+} /* This closing brace ends the @media query */
 
-    
 /* General styling for orchid images */
 .orchid-img {
     width: 100px; /* Adjust the width */
@@ -163,10 +162,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-
-
-
-
-
-
