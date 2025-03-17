@@ -1,5 +1,5 @@
 /* General Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -84,14 +84,14 @@ h1, h2 {
 input, select {
     padding: 8px;
     border-radius: 5px;
-    border:  1px solid #CCC;
+    border: 1px solid #CCC;
 }
 
 button {
-    background-color: #333;  /* Corrected background color */
+    background-color: #333; /* Fix background-color */
     color: white;
     padding: 10px;
-    border: none;
+    border: none; /* Fix border */
     cursor: pointer;
 }
 
@@ -130,13 +130,15 @@ tr:nth-child(even) {
     header h1 {
         font-size: 2em;
     }
+
     nav a {
         font-size: 1em;
     }
+
     input, select {
         font-size: 1em;
     }
-} /* This closing brace ends the @media query */
+}
 
 /* General styling for orchid images */
 .orchid-img {
